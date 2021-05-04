@@ -1,0 +1,99 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    padding: 1rem;
+    border-bottom: 3px solid grey;
+    transition: border-bottom-color 0.6s;
+    font-size: 24px;
+}
+
+header:hover{
+    border-bottom-color: black;
+    transition: border-bottom-color 0.6s;
+}
+
+header div{
+    padding-left: 1rem;
+}
+
+.logo{
+    height: 100%;
+    padding-left: 1rem;
+}
+.logo img{
+    height: 100%;
+}
+.container{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.wrapper{
+    width: 20%;
+    font-size: 48px;
+    justify-items: center;
+    text-align: center;
+    transition: width 0.4s, font-size 0.4s;
+}
+
+.subject{
+    border: 5px solid;
+    border-radius: 50px;
+}
+/* .subject:hover{
+    animation-name: border-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+} */
+
+.subject-title{
+    margin: 2rem;
+}
+
+.wrapper:hover{
+    width: 23%;
+    font-size: 72px;
+    transition: width 0.4s, font-size 0.4s;
+}
+
+.subject-image img{
+    width: 100%;
+}
+.subject-image{
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    width: 100%;
+    font-style: italic;
+    background-color: grey;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@keyframes border-change {
+    0% {border-color: black;}
+    50% {border-color: grey}
+    100% {border-color: black;}
+  }

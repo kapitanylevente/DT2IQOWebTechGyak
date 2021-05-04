@@ -1,0 +1,24 @@
+.section-title{
+    font-size: 48px;
+}
+section div{
+    margin: 1rem;
+}
+section{
+    padding-top: 3rem;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+.section-description{
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 100;
+}
+.section-image{
+    height: 300px;
+}
+.section-image img{
+    margin-top: 3rem;
+    height: 100%;
+}
